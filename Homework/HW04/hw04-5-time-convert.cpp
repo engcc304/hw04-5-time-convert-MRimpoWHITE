@@ -24,6 +24,10 @@ int main(){
     printf("Input Days : \n");
     scanf("%d", &Day);
 
+    //int DtoS;
+    //Dtos = Day * 24 * 60 * 60 ;
+    // printf("%d days = %d seconds", DtoS);
+
     printf("%d days = %d seconds", Day, Day *86400);
 
 
